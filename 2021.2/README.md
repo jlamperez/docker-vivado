@@ -11,5 +11,5 @@ docker image build -t vitis-2021.2 .
 
 To run:
 ```bash
-docker run -e DISPLAY=`hostname`:0 -it --rm -v $PWD:/home/jlamperez/work -w /home/jlamperez vivado-2021.2
+docker run -e DISPLAY=`hostname`:0 -it --rm -v $PWD:/home/jlamperez/work -w /home/jlamperez vitis-2021.2
 ```
